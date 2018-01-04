@@ -490,10 +490,14 @@ form input:nth-of-type(2) {
 	margin: 0 5px 10px 5px;
 	width: calc((100% / 4) - 10px);
 	overflow: hidden;
-	display: flex;
+	display: none;
 	align-items: center;
 	justify-content: center;
 	max-height: 150px;
+}
+
+.slick-active .thumb {
+	display: flex;
 }
 
 .thumb img {
