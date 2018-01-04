@@ -160,6 +160,10 @@ form,
 	z-index: 5;
 }
 
+.hero.first {
+	background-image: url('../images/bridgefull.jpg');
+}
+
 .welcome {
 	display: flex;
 	width: 100%;
@@ -227,13 +231,36 @@ form,
 }
 
 .hero:before {
-  content: '';
-  background-color: #000000;
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  position: absolute;
-  opacity: 0.4;
+	content: '';
+	background-color: #000000;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	position: absolute;
+	animation: 2s fade linear 1;
+	opacity: 0.4;
+}
+
+.welcome {
+	animation: 1s fade2 linear 1;
+}
+
+.tagline {
+	animation: 2s fade2 linear 1;
+}
+
+.downward {
+	animation: 3s fade2 linear 1;
+}
+
+@keyframes fade {
+    0%   {opacity: 1;}
+    100% {opacity: 0.4;}
+}
+
+@keyframes fade2 {
+    0%   {opacity: 0;}
+    100% {opacity: 1;}
 }
 
 .downward {
