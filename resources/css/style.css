@@ -237,7 +237,7 @@ form,
 	height: 100vh;
 	display: flex;
 	position: absolute;
-	animation: 2s fade linear 1;
+	animation: 3s fade linear 1;
 	opacity: 0.4;
 }
 
