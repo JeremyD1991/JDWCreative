@@ -235,6 +235,8 @@ form,
 	content: '';
 	background-color: #000000;
 	width: 100vw;
+	left: 0;
+	right: 0;
 	height: 100vh;
 	display: flex;
 	position: absolute;
