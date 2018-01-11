@@ -88,7 +88,8 @@ h1 {
 }
 
 h2,
-h3 {
+h3,
+h4{
 	font-family: 'HeroicCondensed-Bold', 'Gotham-Medium', Helvetica, Arial, sans-serif;
 	font-size: 4rem;
 	text-align: center;
@@ -101,6 +102,10 @@ h3 {
 
 h3 {
 	font-size: 1.75rem;
+}
+
+h4 {
+	font-size: 6rem;
 }
 
 p {
@@ -325,6 +330,7 @@ form,
 
 .about p {
 	margin-bottom: 30px;
+	width: 100%;
 }
 
 .card {
@@ -342,15 +348,22 @@ form,
 	align-items: center;
 }
 
-.about .splash {
+.about .splash,
+.service {
 	height: auto;
 	padding: 20px;
 	background: linear-gradient(to right, hsla(199, 30%, 42%, 1), hsla(199, 20%, 35%, 1));
 	color: #f5f5f5;
 }
 
-.about .splash:hover {
+.about .splash:hover,
+.service:hover {
 	background: linear-gradient(to right, hsla(199, 20%, 35%, 1), hsla(199, 30%, 42%, 1));
+}
+
+.card.service {
+	width: calc(31% - 40px);
+	text-align: center;
 }
 
 .teaser {
@@ -368,6 +381,32 @@ form,
 	flex-direction: row;
 	justify-content: space-between;
 	flex-wrap: wrap;
+}
+
+/*Pricing*/
+.pricing {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.pricing h2 {
+	width: 100%;
+}
+
+.hdivide {
+	display: inline-block;
+	height: 1px;
+	width: 50%;
+	background-color: #ffffff;
+	margin: 10px 0;
+}
+
+.service p {
+	font-size: 1rem;
+	text-shadow: none;
+	margin: 0;
 }
 
 /*Contact*/
