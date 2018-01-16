@@ -166,10 +166,6 @@ form,
 	z-index: 5;
 }
 
-.hero.first {
-	background-image: url('../images/bridgefull.jpg');
-}
-
 .welcome {
 	display: flex;
 	width: 100%;
