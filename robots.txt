@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /index.html
+Disallow: /galleryselect.html
+Disallow: /gallery1.html
+Disallow: /gallery2.html
+Disallow: /gallery3.html
+Disallow: /gallery4.html
+Disallow: /contact.html
+Disallow: /about.html
+Disallow: /Broadway-19.html
+Disallow: /resources/
