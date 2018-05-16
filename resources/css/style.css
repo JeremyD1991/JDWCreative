@@ -571,23 +571,6 @@ textarea {
 		margin-top: calc((-100vh + 79px) / 3);
 	}
 	
-	.content.full.left {
-		background-position: left;
-	}
-
-	.content.full.right {
-		background-position: right;
-	}
-	
-	.half.copy {
-		width: calc(50% - 200px);
-		background: rgba(0,0,0,0.5);
-		padding: 200px 100px;
-		align-content: flex-start;
-		justify-content: center;
-		flex-flow: column wrap;
-	}
-	
 	footer .maxw {
 		flex-flow: row wrap;
 	}
@@ -659,6 +642,23 @@ textarea {
 	
 	.copyholder {
 		width: 30%;
+	}
+	
+	.content.full.left {
+		background-position: left;
+	}
+
+	.content.full.right {
+		background-position: right;
+	}
+	
+	.half.copy {
+		width: calc(50% - 200px);
+		background: rgba(0,0,0,0.5);
+		padding: 200px 100px;
+		align-content: flex-start;
+		justify-content: center;
+		flex-flow: column wrap;
 	}
 	
 	/*Gallery Styles*/
