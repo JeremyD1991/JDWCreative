@@ -501,6 +501,7 @@ textarea {
 	align-content: flex-start;
 	justify-content: center;
 	flex-flow: column wrap;
+	text-shadow: 0 0 .6rem rgba(0,0,0,.5);
 }
 
 .right .half.copy {
